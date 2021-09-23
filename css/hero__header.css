@@ -1,0 +1,50 @@
+.hero__header {
+  position: absolute;
+  bottom: 36vh;
+  right: 0;
+  text-shadow: 3px 4px 4px #242424;
+  color: white;
+}
+
+.hero__header > h1 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 7px;
+  font-stretch: ultra-expanded;
+}
+
+.hero__header > h2 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-right: -40px;
+}
+
+.hero__header > p {
+  position: absolute;
+  font-size: 23px;
+  margin-top: -50px;
+  right: 0;
+}
+
+@media (max-width: 1441px) {
+  .hero__header {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero__header > p {
+    display: none;
+  }
+  .hero__header {
+    left: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__header {
+    display: none;
+  }
+}
+/*# sourceMappingURL=hero__header.css.map */

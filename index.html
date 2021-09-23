@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <title>practice-1st-task</title>
+    <meta name="description" content="description place">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/hero__header.css">
+    <link rel="stylesheet" href="css/hero__carousel.css">
+    <link rel="stylesheet" href="css/hero__newsletter.css">
+    <link rel="stylesheet" href="css/top-menu.css">
+    <link rel="stylesheet" href="css/top-menu__search.css">
+    <link rel="stylesheet" href="css/side-menu.css">
+    <link rel="stylesheet" href="css/industries.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--top bar-->
+
+    <nav class="top-menu">
+        <div class="container container--responsive">
+            <ul class="top-menu__list">
+                <li class="top-menu__logo-box">
+                    <img class="top-menu__logo" src="./images/top-menu_logo.png" alt="logo">
+                </li>
+                <li class="top-menu__list-item">
+                    Branże
+                </li>
+                <li class="top-menu__list-item">
+                    Produkty
+                </li>
+                <li class="top-menu__list-item">
+                    Usługi
+                </li>
+                <li class="top-menu__list-item">
+                    Aktualności
+                </li>
+                <li class="top-menu__list-item">
+                    Kontakt
+                </li>
+                <li class="top-menu__list-item">
+                    Referencje
+                </li>
+            </ul>
+        </div>
+
+        <!--Top bar search-->
+
+        <form class="top-menu__search">
+            <input type="text" placeholder="Search.." maxlength="19" class="display--none top-menu__search-input"
+                id="top-menu__search-input">
+            <button type="button" class="top-menu__search-button"></button>
+        </form>
+    </nav>
+
+    <!--side menu bar-->
+
+    <aside class="side-menu" id="side-menu">
+        <ul class="side-menu__list">
+            <li>
+                <img class="side-menu__logo" src="./images/top-menu_logo.png" alt="logo">
+            </li>
+            <li class="side-menu__list-item">
+                Menu
+            </li>
+            <li class="dotts">
+                ...................
+            </li>
+            <li class="side-menu__list-item">
+                Branże
+            </li>
+            <li class="side-menu__list-item">
+                Produkty
+            </li>
+            <li class="side-menu__list-item">
+                Usługi
+            </li>
+            <li class="side-menu__list-item">
+                Aktualności
+            </li>
+            <li class="side-menu__list-item">
+                Referencje
+            </li>
+            <li class="side-menu__list-item">
+                Kontakt
+            </li>
+            <li class="dotts">
+                ...................
+            </li>
+            <li class="side-menu__list-item">
+                O firmie
+            </li>
+            <li class="side-menu__list-item">
+                Nagrody
+            </li>
+            <li class="side-menu__list-item">
+                Relacje
+            </li>
+            <li class="side-menu__list-item">
+                inwestorskie
+            </li>
+            <li class="side-menu__list-item">
+                Partnerzy
+            </li>
+            <li class="side-menu__list-item">
+                Kariera
+            </li>
+            <li class="side-menu__list-item">
+                Strefa&nbsp;klienta
+            </li>
+            <li class="dotts">
+                ...................
+            </li>
+            <li class="side-menu__logo--fb"></li>
+            <li class="side-menu__logo--in"></li>
+        </ul>
+        <div class="side-menu__button">
+            <img src="./images/side-menu_arrow.png" alt="" class="side-menu__arrow" id="side-menu__arrow">
+        </div>
+    </aside>
+
+    <!--hero page-->
+
+    <section class="hero">
+        <div class="hero__carousel">
+            <div class="hero__carousel-item hero__carousel-item--active">
+                <img src="./images/hero-carousel1.jpg" alt="">
+            </div>
+            <div class="hero__carousel-item">
+                <img src="./images/hero-carousel2.jpg" alt="">
+            </div>
+            <div class="hero__carousel-item">
+                <img src="./images/hero-carousel3.jpg" alt="">
+            </div>
+            <div class="hero__carousel-item">
+                <img src="./images/hero-carousel4.jpg" alt="">
+            </div>
+        </div>
+
+        <!--Hero header-->
+
+        <div class="container container--hero container--responsive">
+            <div class="hero__header">
+                <h1>SIMPLE</h1>
+                <h2>- z nami biznes jest prostszy!</h2>
+                <p>Dowiedz się więcej</p>
+            </div>
+
+            <!--Newsletter bar-->
+
+            <div class="newsletter">
+                <div class="newsletter__bar">
+                    <img src="./images/newsletter_icon.png" alt="" class="newsletter__icon">
+                    <h1 class="newsletter__header">Chcesz otrzymywać od nas Newsletter?</h1>
+                    <h1 class="newsletter__header--responsive">Newsletter?</h1>
+                    <input type="text" class="newsletter__input newsletter__input--low-res" placeholder="Newsletter?">
+                    <input type="text" class="newsletter__input newsletter__input--high-res">
+                </div>
+                <button class="newsletter__button">Zapisz się</button>
+                <div class="hero__carousel-buttons">
+                    <button class="hero__carousel-btn hero__carousel-btn--active"></button>
+                    <button class="hero__carousel-btn"></button>
+                    <button class="hero__carousel-btn"></button>
+                    <button class="hero__carousel-btn"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Industries section-->
+
+
+    <section class="background--main-color">
+        <div class="container container--responsive">
+            <div class="section__header">
+                <img src="./images/industries-logosvg.svg" alt="">
+                <h1>BRANŻE</h1>
+            </div>
+            <hr class="hr">
+            <hr class="hr--mobile">
+            <div class="industries__grid">
+                <div class="industries__grid-item industries__grid-item--photo">
+                    <p>EDUKACJA</p>
+                    <div class="industries__grid-overlay"></div>
+                </div>
+                <div class="industries__grid-item industries__grid-item--photo">
+                    <p>TRANSPORT & LOGISTYKA</p>
+                    <div class="industries__grid-overlay"></div>
+                </div>
+                <div class="industries__grid-item industries__grid-item--photo">
+                    <p>PRODUKCJA</p>
+                    <div class="industries__grid-overlay"></div>
+                </div>
+                <div class="industries__grid-item industries__grid-item--photo">
+                    <p>BUDOWNICTWO</p>
+                    <div class="industries__grid-overlay"></div>
+                </div>
+                <div class="industries__grid-item industries__grid-item--photo">
+                    <p>INSTYTUTY</p>
+                    <div class="industries__grid-overlay"></div>
+                </div>
+                <div class="industries__grid-item industries__grid-item--photo">
+                    <p>MEDYCYNA</p>
+                    <div class="industries__grid-overlay"></div>
+                </div>
+                <div class="industries__grid-item industries__grid-item--photo">
+                    <p>HANDEL</p>
+                    <div class="industries__grid-overlay--solid"></div>
+                </div>
+                <div class="industries__grid-item industries__grid-item--photo">
+                    <p>MSP</p>
+                    <div class="industries__grid-overlay--solid"></div>
+                </div>
+                <div class="industries__grid-item industries__grid-item--photo">
+                    <p>ADMINISTRACJA PUBLICZNA</p>
+                    <div class="industries__grid-overlay--solid"></div>
+                </div>
+                <div class="industries__grid-item industries__grid-item--text">SIMPLE to znak rozpoznawczy szerokiej
+                    rodziny rozwiązań
+                    informatycznych
+                    wspomagających zarządzanie obszarami: finansów, obrotu towarowego, personelu, procesu
+                    budownictwa,
+                    produkcji, łańcucha dostaw czy relacji z klientami. Od ponad 24 lat dostarczamy wyspecjalizowane
+                    usługi integracji rozwiązań informatycznych i </div>
+                <div class="industries__grid-item  industries__grid-item--text"><strong>doradztwa biznesowego. Nasze
+                        produkty i usługi znalazły
+                        uznanie
+                        ponad
+                        3500 klientów.
+
+                        Jesteśmy ludźmi, którzy doskonale znają Twój biznes. Opierając się na naszym doświadczeniu
+                        proponujemy rozwiązania, które powstały w oparciu o</strong> </div>
+                <div class="industries__grid-item  industries__grid-item--text">wiedzę zatrudnianych przez nas
+                    ekspertów, a które generalnie
+                    podnoszą
+                    rangę prowadzonych procesów biznesowych i spełniają specyficzne wymagania przedsiębiorstw
+                    poszczególnych branż, zapewniając możliwość odniesienia sukcesu w coraz silniej konkurencyjnym
+                    otoczeniu.</div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Products section-->
+
+
+    <section class="container container--responsive">
+        <div class="section__header section__header--color products__header">
+            <img src="./images/products-logo.svg" alt="" class="products__img">
+            <h1>PRODUKTY</h1>
+        </div>
+        <hr class="hr hr--color">
+        <div class="products__row">
+            <div class="products__column">
+                <p>Nieustannie doskonalimy nasze produkty i usługi. Budujemy naszą ofertę z myślą o potrzebach
+                    biznesowych i profilach branżowych naszych Klientów.
+                    Nasza oferta obejmuje bogate portfolio innowacyjnych systemów informatycznych</p>
+            </div>
+            <div class="products__column">
+                <p>kompleksowo wspomagających zarządzanie - powstałych na bazie blisko dwudziestoletnich doświadczeń i
+                    liczbie ponad 23 tysięcy użytkowników - wzbogacone kompetencjami związanymi z optymalnym doborem
+                    infrastruktury informatycznej i profesjonalnymi usługami.</p>
+            </div>
+        </div>
+        <div class="products__grid">
+            <div class="products__circle">
+                wms
+            </div>
+            <div class="products__circle">
+                simple.<br>erp
+            </div>
+            <div class="products__circle">
+                simple.<br>sprint
+            </div>
+            <div class="products__circle">
+                simple.<br>crm
+            </div>
+            <div class="products__circle">
+                microsoft<br>dynamics<br>crm 2011
+            </div>
+            <div class="products__circle">
+                obieg<br>dokumentow
+            </div>
+            <div class="products__circle">
+                simple.<br>bi
+            </div>
+            <div class="products__circle">
+                simple.<br>aps
+            </div>
+            <div class="products__circle">
+                simple<br>scm
+            </div>
+            <div class="products__circle">
+                esimple.<br>karo hrms
+            </div>
+        </div>
+        <hr class="hr--mobile">
+        <ul class="products__list">
+            <li class="products__list-item">wms</li>
+            <li class="products__list-item">simple.erp</li>
+            <li class="products__list-item">simple.sprint</li>
+            <li class="products__list-item">simple.crm</li>
+            <li class="products__list-item">microsoft dynamics<br>crm 2011</li>
+            <li class="products__list-item">obieg dokumentów</li>
+            <li class="products__list-item">simple.bi</li>
+            <li class="products__list-item">simple.aps</li>
+            <li class="products__list-item">simple.scm</li>
+            <li class="products__list-item">esimple.karo hrms</li>
+        </ul>
+    </section>
+
+    <!--Services section-->
+
+    <section class="background--main-color">
+        <div class="container container--responsive">
+            <div class="section__header">
+                <img src="./images/services-header-logo.svg" alt="">
+                <h1>Usługi</h1>
+            </div>
+            <hr class="hr">
+            <hr class="hr--mobile">
+            <div class="services__grid">
+                <div class="services__grid-item">
+                    <img src="../images/services-icon1.svg" alt="">
+                    <p>wdrożenia erp, crm, bi</p>
+                </div>
+                <div class="services__grid-item">
+                    <img src="../images/services-icon2.svg" alt="">
+                    <p>konsulting erp, crm, bi</p>
+                </div>
+                <div class="services__grid-item services__grid-item--tall">
+                    <img src="../images/services-icon3.svg" alt="">
+                    <p>szkolenia</p>
+                </div>
+                <div class="services__grid-item">
+                    <img src="../images/services-icon4.svg" alt="">
+                    <p>doradztwo w zakresie infrastruktury informatycznej</p>
+                </div>
+                <div class="services__grid-item">
+                    <img src="../images/services-icon5.svg" alt="">
+                    <p>dofinansowanie i leasing</p>
+                </div>
+            </div>
+            <div class="services__row">
+                <div class="services__column">
+                    <p>SIMPLE zapewnia klientom profesjonalną pomoc przy realizacji wielowariantowych, indywidualnych
+                        rozwiązań oferując usługi dzięki którym nasi Klienci szybko odnoszą konkretne korzyści
+                        biznesowe.<br><br>
+
+                        Stawiamy do dyspozycji Państwa nasz doświadczony zespół programistów. Kompleksowo świadczymy
+                        usługi związane z tworzeniem na zlecenie dedykowanego oprogramowania. Nasze doświadczenie
+                        obejmuje integrację systemów wspomagających </p>
+                </div>
+                <div class="services__column">
+                    <p>zarządzanie z urządzeniami automatyki przemysłowej, wagami, dozownikami, a także systemami
+                        telekomunikacyjnymi i centralami telefonicznymi.<br><br>
+
+                        Nasi programiści są biegli w tworzeniu oprogramowania dla środowisk Microsoft Windows-SQL ( w
+                        tym SQL 2005 i SQL 2012). Posiadamy doświadczenie w programowaniu z wykorzystaniem między innymi
+                        Power Builder, Visual Basic, Studio.net, InfoMaker, CrystalReports.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--News section-->
+
+    <section class="container container--responsive">
+        <div class="section__header section__header--color">
+            <img src="./images/news-logo.svg" alt="">
+            <h1>Aktualności</h1>
+        </div>
+        <hr class="hr hr--color">
+        <hr class="hr--mobile">
+        <div class="news__carousel owl-carousel owl-theme" id="news-carousel">
+            <div class="news__item">
+                <img src="./images/news-image1.png" alt="" class="news__image">
+                <p class="news__date">1.06.2013</p>
+                <h4>Lorem ipsum</h4>
+                <p class="news__pharagraph">lorem ipsum, lorem ipsum
+                    lorem ipsumlorem ipsum ipsum.
+                </p>
+                <p class="news__dots">..............</p>
+                <p class="news__more">więcej</p>
+                <p class="news__pharagraph--responsive">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+                    temporibus exercitationem praesentium, fugit modi provident mollitia corrupti porro ea, obcaecati
+                    sunt, odit omnis nobis? Maiores illum ducimus dolores porro minima.
+                </p>
+            </div>
+            <div class="news__item">
+                <img src="./images/news-image2.png" alt="" class="news__image">
+                <p class="news__date">1.06.2013</p>
+                <h4>Lorem ipsum</h4>
+                <p class="news__pharagraph">lorem ipsum, lorem ipsum
+                    lorem ipsumlorem ipsum ipsum.
+                </p>
+                <p class="news__dots">..............</p>
+                <p class="news__more">więcej</p>
+                <p class="news__pharagraph--responsive">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+                    temporibus exercitationem praesentium, fugit modi provident mollitia corrupti porro ea, obcaecati
+                    sunt, odit omnis nobis? Maiores illum ducimus dolores porro minima.
+                </p>
+            </div>
+            <div class="news__item">
+                <img src="./images/news-image3.png" alt="" class="news__image">
+                <p class="news__date">1.06.2013</p>
+                <h4>Lorem ipsum</h4>
+                <p class="news__pharagraph">lorem ipsum, lorem ipsum
+                    lorem ipsumlorem ipsum ipsum.
+                </p>
+                <p class="news__dots">..............</p>
+                <p class="news__more">więcej</p>
+                <p class="news__pharagraph--responsive">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+                    temporibus exercitationem praesentium, fugit modi provident mollitia corrupti porro ea, obcaecati
+                    sunt, odit omnis nobis? Maiores illum ducimus dolores porro minima.
+                </p>
+            </div>
+            <div class="news__item">
+                <img src="./images/news-image2.png" alt="" class="news__image">
+                <p class="news__date">1.06.2013</p>
+                <h4>Lorem ipsum</h4>
+                <p class="news__pharagraph">lorem ipsum, lorem ipsum
+                    lorem ipsumlorem ipsum ipsum.
+                </p>
+                <p class="news__dots">..............</p>
+                <p class="news__more">więcej</p>
+                <p class="news__pharagraph--responsive">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+                    temporibus exercitationem praesentium, fugit modi provident mollitia corrupti porro ea, obcaecati
+                    sunt, odit omnis nobis? Maiores illum ducimus dolores porro minima.
+                </p>
+            </div>
+            <div class="news__item">
+                <img src="./images/news-image4.png" alt="" class="news__image">
+                <p class="news__date">1.06.2013</p>
+                <h4>Lorem ipsum</h4>
+                <p class="news__pharagraph">lorem ipsum, lorem ipsum
+                    lorem ipsumlorem ipsum ipsum.
+                </p>
+                <p class="news__dots">..............</p>
+                <p class="news__more">więcej</p>
+                <p class="news__pharagraph--responsive">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+                    temporibus exercitationem praesentium, fugit modi provident mollitia corrupti porro ea, obcaecati
+                    sunt, odit omnis nobis? Maiores illum ducimus dolores porro minima.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+
+    <section class="background--main-color">
+        <div class="container container--responsive">
+            <div class="section__header">
+                <img src="./images/contact-logo.svg" alt="">
+                <h1>Kontakt</h1>
+            </div>
+            <hr class="hr">
+            <hr class="hr--mobile">
+            <div class="contact__row contact__row--none">
+                <div class="contact__column">
+                    <p>SIMPLE S.A.<br><br>ul. Bronisława Czecha 49/51<br>04-555 Warszawa<br><br>tel.:(22)
+                        812-58-98<br>fax.:(22) 815-49-83<br><br>simple@simple.com.pl </p>
+                </div>
+                <div class="contact__column">
+                    <p>SIMPLE S.A.- Ośrodek Badawczo<br>-Rozwojowy Lublin<br><br>ul. Wolska
+                        11A/4<br>20-411Lublin<br><br>tel.kom: +48 696 001 286<br><br>lublin@simple.com.pl</p>
+                </div>
+                <div class="contact__column">
+                    <p>SIMPLE S.A. - oddział Rzeszów<br><br>ul. Rejtana 53A<br>35-326 Rzeszów<br><br>tel. kom.: +48 696
+                        001 235<br>fax.:(17) 865 42 41<br><br>rzeszow@simple.com.pl</p>
+                </div>
+            </div>
+            <div class="contact__carousel owl-carousel owl-theme" id="contact-carousel">
+                <div class="contact__carousel-item">
+                    <p>SIMPLE S.A.- Ośrodek Badawczo<br>-Rozwojowy Lublin<br><br>ul. Wolska
+                        11A/4<br>20-411Lublin<br><br>tel.kom: +48 696 001 286<br><br>lublin@simple.com.pl</p>
+                </div>
+                <div class="contact__carousel-item">
+                    <p>SIMPLE S.A. - oddział Rzeszów<br><br>ul. Rejtana 53A<br>35-326 Rzeszów<br><br>tel. kom.:
+                        +48 696
+                        001 235<br>fax.:(17) 865 42 41<br><br>rzeszow@simple.com.pl</p>
+                </div>
+                <div class="contact__carousel-item">
+                    <p>SIMPLE S.A.<br><br>ul. Bronisława Czecha 49/51<br>04-555 Warszawa<br><br>tel.:(22)
+                        812-58-98<br>fax.:(22) 815-49-83<br><br>simple@simple.com.pl </p>
+                </div>
+            </div>
+
+            <hr class="hr hr--contact">
+            <hr class="hr--mobile">
+            <div class="contact__grid">
+                <div class="contact__grid-item">
+                    <div id="error"></div>
+                    <form class="contact__form" id="form">
+                        <h1 class="contact__form-header">ZADAJ PYTANIE</h1>
+                        <input type="text" name="name" id="name" placeholder="Imię&amp;Nazwisko" class="contact__input">
+                        <input type="text" name="email" id="email" placeholder="Email" class="contact__input">
+                        <input type="text" name="phone" id="phone" placeholder="Numer telefonu" class="contact__input">
+                        <input type="text" name="topic" id="topic" placeholder="Temat" class="contact__input">
+                        <input type="text" name="content" id="content" placeholder="Treść zapytania"
+                            class="contact__input contact__input--big">
+
+                        <div class="contact__presentation">
+                            <div class="contact__presentation-inner">
+                                <p>Wybierz rodzaj prezentacji</p>
+                                <div class="contact__radios">
+                                    <input type="radio" required name="type" id="contact__w-siedzibie"
+                                        class="contact__radio"><label for="contact__w-siedzibie">W
+                                        siedzibie</label>
+                                    <input type="radio" name="type" id="contact__multimedia"
+                                        class="contact__radio"><label for="contact__multimedia">Multimedialna</label>
+                                </div>
+                            </div>
+                            <button type="submit" class="contact__button">Wyślij</button>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="contact__grid-item">
+                    <ul class="contact__list">
+                        <li class="contact__list-item">SOCIAL MEDIA</li>
+                        <li class="contact__list-item"><a href=""><img src="./images/contact-list-logo1.svg" alt=""></a>
+                        </li>
+                        <li class="contact__list-item"><a href=""><img src="./images/contact-list-logo2.svg" alt=""></a>
+                        </li>
+                        <li class="contact__list-item"><a href=""><img src="./images/contact-list-logo3.svg" alt=""></a>
+                        </li>
+                        <li class="contact__list-item"><a href=""><img src="./images/contact-list-logo4.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact__grid-item contact__work">
+                    <p>PRACA</p>
+                    <p>Zainteresowane osoby prosimy o przesłanie CV wraz z listem motywacyjnym na adres:</p>
+                    <p>praca@simple.com.pl</p>
+                    <p>Zobacz nasze oferty...</p>
+                </div>
+            </div>
+
+            <div class="contact__row contact__row--responsive">
+                <div class="contact__column">
+                    <p>ZADAJ PYTANIE<br><br>simple@simple.com.pl</p>
+                </div>
+                <div class="contact__column">
+                    <p>PRACA<br><br>Zainteresowane osoby prosimy
+                        o przesłanie CV wraz z listem motywacyjnym na adres:
+                        praca@simple.com.pl</p>
+                </div>
+                <div class="contact__column">
+                    <p></p>
+                </div>
+            </div>
+
+            <hr class="hr">
+            <hr class="hr--mobile">
+            <div class="back-to-hero">
+                <a href="#" class="">Powrót na górę strony</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer section-->
+
+    <footer class="footer">
+        <div class="container container--responsive">
+            <div class="owl-theme owl-carousel" id="footer-carousel">
+                <div class="footer__item"><img src="./images/footer1.svg" alt=""></div>
+                <div class="footer__item"><img src="./images/footer2.svg" alt=""></div>
+                <div class="footer__item"><img src="./images/footer3.svg" alt=""></div>
+                <div class="footer__item"><img src="./images/footer4.svg" alt=""></div>
+                <div class="footer__item"><img src="./images/footer5.svg" alt=""></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>

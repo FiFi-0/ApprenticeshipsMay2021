@@ -1,0 +1,34 @@
+.footer {
+    margin-top: 20px;
+}
+
+.footer__item > img {
+    height: 80px;
+}
+
+#footer-carousel > .owl-nav > .owl-prev {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+}
+
+#footer-carousel > .owl-nav > .owl-next {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}
+
+#footer-carousel > .owl-nav {
+    display: block;
+}
+
+#footer-carousel {
+    padding: 0 50px;
+}
+
+@media (max-width: 768px) {
+    .footer__item > img {
+        max-width: 60vw;
+        margin: auto;
+    }
+}

@@ -1,0 +1,129 @@
+.newsletter {
+    position: absolute;
+    display: flex;
+    bottom: 3vh;
+    height: 55px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    right: 0;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.newsletter__bar {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.newsletter__icon {
+    margin: auto 10px;
+    height: 45px;
+}
+
+.newsletter__header,
+.newsletter__header--responsive {
+    color: var(--main-color);
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 5px;
+    padding-top: 5px;
+    margin: auto;
+}
+
+.newsletter__header--responsive {
+    display: none;
+}
+
+.newsletter__input {
+    width: 380px;
+    margin: auto;
+    margin-right: 10px;
+    height: 35px;
+}
+
+.newsletter__input--low-res {
+    display: none;
+}
+
+.newsletter__button {
+    background-color: white;
+    border: none;
+    font-size: 19px;
+    color: var(--main-color);
+    margin-left: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 100%;
+}
+
+@media (max-width: 1441px) {
+    .newsletter__input {
+        width: 40%;
+    }
+    .newsletter__button {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .newsletter {
+        width: auto;
+    }
+    .newsletter__input {
+        width: 180px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .newsletter__header {
+        display: none;
+    }
+    .newsletter__header--responsive {
+        display: block;
+    }
+    .newsletter {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .newsletter {
+        justify-content: flex-start;
+        margin-left: 200px;
+    }
+    .newsletter__button {
+        padding: 0 15px;
+    }
+    .newsletter__icon {
+        display: none;
+    }
+    .newsletter__header--responsive {
+        display: none;
+    }
+    .newsletter__input--low-res {
+        display: block;
+        width: 200px;
+    }
+    .newsletter__bar {
+        width: 220px;
+    }
+    .newsletter__input--high-res {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .newsletter__button {
+        width: 80px;
+        margin-right: 0;
+    }
+    .newsletter__input--low-res {
+        width: 150px;
+    }
+    .newsletter__bar {
+        width: 170px;
+    }
+}

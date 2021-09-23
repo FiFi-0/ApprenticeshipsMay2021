@@ -1,0 +1,58 @@
+.hero__carousel {
+  position: absolute;
+  z-index: -1;
+}
+
+.hero__carousel-item {
+  display: none;
+}
+
+.hero__carousel-item img {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+}
+
+.hero__carousel-item--active {
+  display: block;
+}
+
+.hero__carousel-buttons {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  right: 0;
+  top: -35px;
+}
+
+.hero__carousel-btn {
+  height: 15px;
+  width: 37px;
+  border: none;
+  background-color: white;
+  margin-left: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.hero__carousel-btn--active {
+  background-color: var(--main-color);
+}
+
+@media (max-width: 1441px) {
+  .hero__carousel-btn {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero__carousel-btn {
+    display: none;
+  }
+}
+/*# sourceMappingURL=hero__carousel.css.map */

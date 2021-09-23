@@ -1,0 +1,37 @@
+.top-menu__search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 30px;
+  right: 2vw;
+}
+
+.top-menu__search-button {
+  background-image: url("../images/top-menu_loupe.png");
+  background-repeat: no-repeat;
+  height: 31px;
+  width: 32px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.top-menu__search-input {
+  margin-right: 20px;
+  height: 30px;
+}
+
+@media (max-width: 1600px) {
+  .top-menu__search-input {
+    width: 150px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .top-menu__search {
+    display: none;
+  }
+}
+/*# sourceMappingURL=top-menu__search.css.map */
